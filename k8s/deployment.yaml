@@ -21,7 +21,7 @@ spec:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "mirror.umd.edu"
+          value: "beauty-upgrade.tw"
         - name: Vless_UUID
           value: "b102385b-ea81-4a3d-ae73-977d1d261d63"
         - name: Vless_Path
