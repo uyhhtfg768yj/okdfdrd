@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: sad
+  name: main
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "sad"
+  - name: "main"
     port: 8080
   selector:
-    app: sad
+    app: main
